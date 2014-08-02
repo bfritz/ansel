@@ -17,8 +17,8 @@
                  [jordan "0.2.1"]]
   :license {:name "BSD" :url "http://opensource.org/licenses/BSD-2-Clause"}
   :bower {:directory "resources/public/bower_components"}
-  :bower-dependencies [[blueimp-file-upload "9.5.7"]
-                       [angular "1.3.0-beta.13"]
+  :bower-dependencies [[blueimp-file-upload "9.7.0"]
+                       [angular "1.3.0-beta.17"]
                        [bootstrap "3.2.0"]]
   :jvm-opts ["-Xmx1g" "-Djava.awt.headless=true"]
   :ring {:handler ansel.server/server
